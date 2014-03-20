@@ -1,0 +1,21 @@
+//areadeltriangulo.cpp : Defines the entry point for the console application.
+// Autor: Kevin L. Espada Zaballa
+// Fecha: 18/3/2014
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+#invlude “math.h”
+
+using namespace std;
+
+int main() 
+{   float base,altura;
+    Cout<< “ingrasar base:”;
+    Cin>> base;
+    Cout<< “ingresar altura:”;
+    Cin>> altura;
+    Area=(base*altura)/2
+    Cout<< area;
+Getch()
+}
