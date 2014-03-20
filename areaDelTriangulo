@@ -1,0 +1,24 @@
+//ejercicio.cpp : Defines the entry point for the console application.
+// Autor: Kevin L. Espada Zaballa
+// Fecha: 18/3/2014
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+#include “math.h”
+ 
+using namespace std;
+
+int main() 
+{   float a,b,c,s,area;
+    Cout<< “ingrasar a:”;
+    Cin>> a;
+    Cout<< “ingresar b:”;
+    Cin>> b;
+    Cout<< “ingresar c:”;
+    Cin>> c;
+    S= (a+b+c)/2;
+    Area= sqrt((s*(s-a)*(s-b)*(s-c));
+    Cout<< area;
+Getch()
+}
