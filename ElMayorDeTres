@@ -1,0 +1,33 @@
+//elmayordetres.cpp : Defines the entry point for the console application.
+// Autor: Kevin L. Espada Zaballa
+// Fecha: 18/3/2014
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+
+using namespace std;
+
+void main() 
+{   float a,b,c;
+    Cout<< “ingrasar a:”;
+    Cin>> a;
+    Cout<< “ingresar b:”;
+    Cin>> b;
+    Cout<< “ingresar c:”;
+    Cin>> c;
+    If (a>b)
+       If (a>c)
+          Cout<< “el mayor es:”<<a;
+       Else
+          Cout<< “el mayor es:”<<c;
+       Else 
+          If b>c)
+             Cout<< “el mayor es;”<<b;
+          Else
+             Cout<< “el mayor es:”<<c;
+Getch()
+}
+
+
+
