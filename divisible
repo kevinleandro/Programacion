@@ -1,0 +1,29 @@
+// divisible.cpp : Defines the entry point for the console application.
+// autor: kevin leandro espada zaballa
+// fecha: 25/03/14
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+#include "math.h"
+
+using namespace std;
+
+void main()
+
+{ 
+int a,b,divisible;
+cout<< "ingrese a:";
+cin>> a;
+cout<< "ingrese b:";
+cin>> b;
+if (a%b==0)
+{
+divisible=a/b;
+cout<< "el resultado final es:" <<divisible;
+}
+getch();
+}
+
+
+
