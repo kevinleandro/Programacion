@@ -1,0 +1,23 @@
+//SUMADESERIALES.cpp : Defines the entry point for the console application.
+//NOMBRE:kevin leandro espada zaballa
+//FECHA: 1-4-2014
+
+#include "stdafx.h"
+#include <iostream>		
+#include "conio.h"
+#include "math.h"
+
+using namespace std;
+
+void main()  
+
+{ 
+  int suma,i,N;
+  cout<< "ingrese el valor de N:";
+  cin>> N;
+  suma=0;
+  for (i=1;i<=N;i++)
+       suma=suma+i*i;
+  cout<<"La suma de los "<< N <<"primeros numeros enteros" << suma;
+  getch();
+}
