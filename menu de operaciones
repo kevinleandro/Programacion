@@ -1,0 +1,52 @@
+// menudeoperaciones.cpp : Defines the entry point for the console application.
+// autor kevin leandro espada zaballa
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+#include "math.h"
+
+using namespace std;
+
+void main()
+{
+	float a,b,multiplicar,potencia,raizcuadrada,salir,resultado;
+    int	opcion;
+	cout<< "ingrese el valor de a: \n";
+	cin>> a;
+	cout<< "ingrese el valor de b: \n";
+	cin>> b;
+	do
+	{
+	cout<< "==================MENU=================";
+	cout<< " 1 multiplicar\n";
+	cout<< " 2 potencia\n";
+	cout<< " 3 raiz cuadrada\n";
+	cout<< " 0 salir\n ";
+
+	cin>> opcion;
+
+    if(opcion==1)
+	{
+		resultado=a*b;
+		cout<< resultado;
+	}
+	else 
+		if(opcion==2)
+		{
+			resultado=pow(a,b);
+		}   cout<< resultado;
+		else 
+			if (opcion==3)
+			{
+			    resultado= sqrt(a);
+	            cout<< resultado;
+			}
+	}
+	while (opcion != 0)
+ getch();
+}
+
+
+
+
